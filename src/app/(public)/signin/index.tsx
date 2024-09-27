@@ -7,7 +7,6 @@ import { useState } from "react";
 export default function SignIn() {
   const insets = useSafeAreaInsets();
   const [isPasswordVisible, setPasswordVisible] = useState<boolean>(false);
-  console.log("🚀 ~ SignIn ~ isPasswordVisible:", isPasswordVisible);
 
   const togglePasswordVisibility = () => {
     setPasswordVisible(!isPasswordVisible);
